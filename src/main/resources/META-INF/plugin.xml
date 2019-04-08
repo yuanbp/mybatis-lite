@@ -119,5 +119,11 @@
             <add-to-group group-id="MybatisPluginActionGroup" anchor="last"/>
         </action>
 
+        <action id="Mybatis.Generator" class="com.github.mustfun.mybatis.plugin.action.MybatisGen" text="MybatisGen" description="MybatisGen">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+        <action id="Editor.Mybatis.Generator" class="com.github.mustfun.mybatis.plugin.action.MybatisGen" text="MybatisGen" description="EditorMybatisGen">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
